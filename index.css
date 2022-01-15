@@ -1,0 +1,869 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 10em;
+}
+
+
+/* styles the header */
+header {
+    background-color: #fff;
+    box-shadow: 0 0.5rem 5px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    padding: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+#shop-now button:hover {
+    padding: 5px 25px;
+    transition: 0.5s ease-in padding;
+
+}
+
+
+#sales div button:hover {
+    padding: 5px 25px;
+    transition: 0.5s ease-in padding;
+}
+
+
+#shop-container .motion button:hover {
+    padding: 5px 25px;
+    transition: 0.5s ease-in padding;
+
+}
+
+
+
+/* styles the header logo */
+header img {
+    width: 70px;
+    border-radius: 10px;
+
+}
+
+/* styles anchor elements */
+a {
+    color: #000;
+    text-decoration: none;
+    padding: 5px;
+}
+
+/* styles the input element */
+#search {
+    position: fixed;
+    top: 140px;
+    width: 100%;
+    height: 4em;
+    border: 2px solid #000;
+}
+
+/* changes the dispay property of the input element */
+.show {
+    display: none;
+}
+
+
+#bg-img {
+
+    height: 60vh;
+    background-image: url('images/home-bg-1.png');
+    background-position: center;
+    background-size: cover;
+
+}
+
+#greetings {
+    padding: 5em 0 5em 0;
+    height: 49vh;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+#next {
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* styles the previous and next buttons */
+.box {
+    margin-right: 10px;
+    border: 1px solid black;
+    background-color: #ff0000;
+    height: 3em;
+    width: 4%;
+    outline: none;
+}
+
+
+#second-container {
+    padding: 0 7em 0 7em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+#second-container button {
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    margin-top: 18px;
+}
+
+#second-container #sales {
+    width: 450px;
+    height: 270px;
+    background-color: lightgray;
+}
+
+#second-container img {
+    width: 440px;
+    box-shadow: 40px 40px 5px lightgray;
+
+}
+
+#sales {
+    padding: 30px 20px;
+}
+
+
+
+
+#gallery {
+    margin: 3em 0 1em 0;
+    text-align: center;
+    font-size: 2.4em;
+    font-weight: bold;
+}
+
+/* styles  the gallery section of the site */
+#third-container {
+
+
+    margin: 0 5em;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(250px, auto);
+}
+
+/* styles the buttons on hover effect */
+button:hover {
+    cursor: pointer;
+}
+
+
+#box1 {
+    height: 280px;
+    background-image: url('images/gallery-img-6.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box2 {
+    height: 280px;
+    background-image: url('images/gallery-img-5.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box3 {
+    height: 280px;
+    background-image: url('images/gallery-img-4.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box4 {
+    height: 280px;
+    background-image: url('images/gallery-img-3.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box5 {
+    height: 280px;
+    background-image: url('images/gallery-img-2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#box6 {
+    height: 280px;
+    background-image: url('images/gallery-img-1.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+#merry {
+    font-size: 2em;
+
+}
+
+#discount {
+    font-size: 3em;
+    font-weight: bold;
+}
+
+#shop-now button {
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 20px;
+
+}
+
+
+#hide-show {
+
+    height: 100%;
+    padding: 2em 0;
+    text-align: center;
+
+}
+
+
+#hide-show2 {
+    height: 100%;
+    padding: 2em 0;
+    text-align: center;
+
+}
+
+
+#hide-show3 {
+    height: 100%;
+    padding: 2em 0;
+    text-align: center;
+
+}
+
+
+#hide-show4 {
+    height: 100%;
+    padding: 2em 0;
+    text-align: center;
+
+}
+
+
+#hide-show5 {
+    height: 100%;
+    padding: 2em 0;
+    text-align: center;
+
+}
+
+
+#hide-show6 {
+    height: 100%;
+    padding: 2em 0;
+    text-align: center;
+
+}
+
+/* changes the display property of the div element */
+.active-deactive {
+    display: none;
+
+}
+
+
+
+
+#third-container div div.text {
+    padding: 2em 0;
+}
+
+#third-container div div h3 {
+    margin-top: 1.5em;
+}
+
+#third-container div div button {
+    display: block;
+
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    margin: auto;
+
+}
+
+
+
+
+
+.gallery {
+    width: 201px;
+    margin-left: 2px;
+}
+
+.gallery img {
+    width: 6.5em;
+}
+
+.gallery p:hover {
+    cursor: pointer;
+    color: #ff0000;
+}
+
+
+#gallery-container {
+    padding-left: 1.5em;
+    margin-top: 5em;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+#shop {
+    margin-top: 5em;
+}
+
+#shop>div h2 {
+    font-size: 2.4em;
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+
+.sticker {
+    width: 3em;
+    height: 3em;
+    background-color: #ff0000;
+    border: 1px solid black;
+    margin-bottom: 1em;
+}
+
+
+.items {
+    display: block;
+    width: 12em;
+    margin: auto;
+}
+
+
+
+
+
+#chris-decore {
+    text-align: center;
+    font-size: 20px;
+}
+
+
+#cost {
+    text-align: center;
+    font-size: 20px;
+    color: #ff0000;
+
+}
+
+#add-to-cart {
+    display: block;
+    margin: auto;
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    margin-top: 1em;
+}
+
+#cost span {
+    color: #000;
+    text-decoration: line-through;
+    font-size: 15px;
+}
+
+
+#product,
+#product2,
+#product3,
+#product4,
+#product5,
+#product6 {
+    border: 3px solid black;
+    width: 22em;
+    height: 27em;
+    margin: 10px;
+
+    background-color: #fff;
+
+
+}
+
+
+#shop-container {
+    background-color: lightgray;
+    padding: 2em 0 2em 0;
+}
+
+
+#product-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 4.5em;
+}
+
+
+
+
+#special-offer {
+    margin-top: 4em;
+    margin-bottom: 4em;
+    height: 40em;
+    background: url('images/banner-bg.png');
+    background-position: center;
+    background-size: cover;
+    padding: 8em 0 8em 7em;
+}
+
+/* Responsive mode for smaller devices */
+@media(max-width:800px) {
+    #special-offer {
+        padding: 8em 0 8em 1em;
+    }
+}
+
+
+#special-offer>div {
+    max-width: 25em;
+    height: 16em;
+    background-color: #fff;
+
+}
+
+
+#special-offer div #offer {
+    text-align: center;
+    padding: 1em 0;
+    font-size: 20px;
+    color: #ff0000;
+
+}
+
+#special-offer div h2 {
+    font-size: 2em;
+    text-align: center;
+
+}
+
+#special-offer div #text {
+    text-align: center;
+    margin: 1em 0;
+
+}
+
+#special-offer div button {
+    display: block;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    margin: auto;
+}
+
+
+#special-offer div button:hover {
+    padding: 5px 25px;
+    transition: 0.5s ease-in padding;
+}
+
+
+
+#contact {
+    padding: 4.5em;
+    height: 105vh;
+    background: url('images/message-bg.png');
+}
+
+
+
+#contact form {
+    background: #fff;
+    padding: 10px;
+    margin-top: 2em;
+    max-width: 30em;
+    height: 85vh;
+    margin: auto;
+}
+
+/* styles the form paragraph element */
+#form p {
+    padding: 1em;
+    text-align: center;
+    font-size: 1.7em;
+    font-weight: bold;
+}
+
+/* styles the form input element */
+#form input {
+    height: 3em;
+    margin-bottom: 1.5em;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+
+
+
+#form button {
+    display: block;
+
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    margin: auto;
+}
+
+#form button:hover {
+    padding: 5px 25px;
+    transition: 0.5s ease-in padding;
+}
+
+textarea {
+    margin-bottom: 1em;
+    resize: none;
+    border: none;
+    width: 100%;
+    outline: none;
+    border-bottom: 2px solid #000;
+}
+
+
+#services {
+    margin-top: 4em;
+    padding: 30px;
+    background-color: rgba(9, 9, 90, 0.705);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#services>div {
+    padding: 1em 2em;
+}
+
+#services img {
+    width: 100px;
+}
+
+#services h3 {
+    padding: 5px;
+    color: #fff;
+}
+
+/* styles additonal navigation links */
+#links {
+    padding: 0 7em 5em 7em;
+    margin-top: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#links div {
+    padding: 5px;
+}
+
+#links a {
+    display: block;
+    color: #000;
+}
+
+
+#links h3 {
+    font-size: 22px;
+}
+
+/* styles newsletter */
+#newsletter {
+    padding: 0 1em;
+}
+
+#newsletter button {
+    display: block;
+    text-align: center;
+    outline: none;
+    border: none;
+    background-color: #ff0000;
+    color: #fff;
+    font-size: 1.3em;
+    padding: 5px 20px;
+    margin-top: 1em;
+}
+
+#newsletter button:hover {
+    padding: 5px 25px;
+    transition: 0.5s ease-in padding;
+}
+
+
+#newsletter p {
+    margin: 1em 0;
+}
+
+
+#newsletter h3 {
+    font-size: 22px;
+}
+
+#newsletter input {
+    height: 3.5em;
+    width: 25em;
+    border: 2px solid #000;
+}
+
+/* style the footer element */
+footer {
+    padding-bottom: 3em;
+}
+
+footer hr {
+    width: 82%;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+footer p {
+    text-align: center;
+    font-size: 20px;
+}
+
+#icon button {
+    margin-right: 5px;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.411);
+    background-color: #fff;
+    outline: none;
+    border: none;
+
+}
+
+#icon i {
+    margin-left: 2px;
+}
+
+.search {
+    padding: 5px;
+}
+
+
+.heart {
+    padding: 5px;
+}
+
+.cart {
+    padding: 5px;
+}
+
+.search:hover,
+.heart:hover,
+.cart:hover {
+    background-color: #ff0000;
+}
+
+#scroll {
+    border: none;
+    outline: none;
+    background-color: #ff0000;
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    display: none;
+
+}
+
+#menu {
+    display: none;
+}
+
+/* Responsive mode for smaller devices */
+@media(max-width: 1129px) {
+    #second-container {
+        padding: 0 1em;
+
+    }
+
+    #second-container img {
+        width: 100%;
+
+    }
+
+
+    #second-container #sales {
+        margin-top: 5em;
+        width: 100%;
+
+    }
+
+
+}
+
+/* Responsive mode for smaller devices */
+@media(max-width:750px) {
+    #menu {
+        display: inline;
+    }
+
+    nav {
+        background-color: rgba(0, 0, 0, 0.11);
+        position: absolute;
+        left: 0;
+        transform: translateY(160px);
+        transition: 0.5s ease-in transform;
+        width: 100%;
+        padding: 0 5px;
+    }
+
+    nav a {
+        display: block;
+
+    }
+
+
+    .switch {
+        transform: translateY(-155px);
+
+
+
+    }
+
+    #merry {
+        font-size: 1.5em;
+    }
+
+    #discount {
+        font-size: 2em;
+    }
+
+
+    #shop-now button {
+
+        font-size: 1em;
+
+
+    }
+
+}
+
+
+@media(max-width:500px) {
+    .gallery img {
+
+        width: 8em;
+    }
+}
+
+@media(max-width:700px) {
+    .box {
+
+        width: 8%;
+    }
+}
+
+/* Responsive mode for smaller devices */
+@media(max-width:904px) {
+
+    #product,
+    #product2,
+    #product3,
+    #product4,
+    #product5,
+    #product6 {
+
+        width: 100%;
+
+    }
+
+    #product-container {
+        padding: 5px;
+    }
+
+}
+
+/* Responsive mode for smaller devices */
+@media(max-width:970px) {
+    #third-container {
+        display: block;
+        margin: 0 1em;
+
+
+    }
+
+    #box1,
+    #box2,
+    #box3,
+    #box4,
+    #box5 {
+        margin-bottom: 1em;
+    }
+}
+
+
+
+/* Responsive mode for smaller devices */
+@media(max-width:500px) {
+    #contact {
+        padding: 4.5em 1em;
+    }
+
+/* styles footer paragraph element */
+    footer p {
+        text-align: center;
+        font-size: 16px;
+    }
+}
