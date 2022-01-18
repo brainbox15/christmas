@@ -459,12 +459,21 @@ button:hover {
     padding: 8em 0 8em 7em;
 }
 
+#special-offer div h2 {
+    font-size: 2em;
+    text-align: center;
+
+}
+
+
 /* Responsive mode for smaller devices */
 @media(max-width:800px) {
     #special-offer {
         padding: 8em 0 8em 1em;
     }
 }
+
+
 
 
 #special-offer>div {
@@ -474,6 +483,19 @@ button:hover {
 
 }
 
+@media(max-width:500px) {
+    #special-offer>div {
+        max-width: 100%;
+    }
+
+    #special-offer {
+        padding: 8em 7em 8em 1em;
+    }
+
+    #special-offer div h2 {
+        font-size: 25px;
+    }
+}
 
 #special-offer div #offer {
     text-align: center;
@@ -483,11 +505,6 @@ button:hover {
 
 }
 
-#special-offer div h2 {
-    font-size: 2em;
-    text-align: center;
-
-}
 
 #special-offer div #text {
     text-align: center;
@@ -798,6 +815,14 @@ footer p {
 
     }
 
+    #gallery {
+        font-size: 1.8em;
+    }
+
+    #shop>div h2 {
+        font-size: 1.8em;
+    }
+
 }
 
 
@@ -861,7 +886,7 @@ footer p {
         padding: 4.5em 1em;
     }
 
-/* styles footer paragraph element */
+    /* styles footer paragraph element */
     footer p {
         text-align: center;
         font-size: 16px;
