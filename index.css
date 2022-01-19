@@ -893,6 +893,6 @@ footer p {
     }
 
     #scroll{
-        display: block;
+        /* display: block; */
     }
 }
