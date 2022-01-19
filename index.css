@@ -738,7 +738,7 @@ footer p {
     padding: 5px;
     position: fixed;
     bottom: 5px;
-    right: 5px;
+    left: 5px;
     color: #fff;
     display: none;
 
@@ -893,6 +893,6 @@ footer p {
     }
 
     #scroll{
-        /* display: block; */
+        display: block;
     }
 }
