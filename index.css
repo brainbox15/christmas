@@ -173,6 +173,9 @@ button:hover {
     cursor: pointer;
 }
 
+button {
+    border-radius: 5px;
+}
 
 #box1 {
     height: 280px;
@@ -344,7 +347,7 @@ button:hover {
     padding-left: 1.5em;
     margin-top: 5em;
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
@@ -474,9 +477,9 @@ button:hover {
 }
 
 
-
-
 #special-offer>div {
+    border-radius: 5px;
+    box-shadow: 0 0 5px;
     max-width: 25em;
     height: 16em;
     background-color: #fff;
@@ -541,12 +544,15 @@ button:hover {
 
 
 #contact form {
+    border-radius: 5px;
     background: #fff;
     padding: 10px;
     margin-top: 2em;
     max-width: 30em;
-    height: 85vh;
     margin: auto;
+    padding-bottom: 1em;
+    box-shadow: 0 0 5px;
+
 }
 
 /* styles the form paragraph element */
@@ -568,7 +574,9 @@ button:hover {
 }
 
 
-
+nav a:hover {
+    color: red;
+}
 
 #form button {
     display: block;
@@ -710,6 +718,8 @@ footer p {
 
 #icon i {
     margin-left: 2px;
+    font-size: 20px;
+    border-radius: 5px;
 }
 
 .search {
@@ -732,20 +742,26 @@ footer p {
 }
 
 #scroll {
+    width: 40px;
+    height: 40px;
     border: none;
     outline: none;
     background-color: #ff0000;
-    padding: 5px;
+    /* padding: 5px; */
     position: fixed;
     bottom: 5px;
     left: 5px;
     color: #fff;
     display: none;
-
+    border-radius: 50%;
 }
 
 #menu {
     display: none;
+}
+
+#menu:hover {
+    cursor: pointer;
 }
 
 /* Responsive mode for smaller devices */
@@ -770,17 +786,36 @@ footer p {
 
 }
 
+
 /* Responsive mode for smaller devices */
-@media(max-width:750px) {
+@media(max-width:800px) {
+
+    #contact {
+        height: 100%;
+    }
+
+    header img {
+        width: 85px;
+    }
+
+    header {
+        padding: 30px 1em;
+    }
+
+    i {
+        font-size: 28px;
+    }
+
     #menu {
         display: inline;
+        padding: 5px;
     }
 
     nav {
-        background-color: rgba(0, 0, 0, 0.11);
+        background-color: rgba(0, 0, 0, 0.836);
         position: absolute;
         left: 0;
-        transform: translateY(160px);
+        transform: translateY(150px);
         transition: 0.5s ease-in transform;
         width: 100%;
         padding: 0 5px;
@@ -788,12 +823,13 @@ footer p {
 
     nav a {
         display: block;
-
+        color: #fff;
+        text-align: center;
     }
 
 
     .switch {
-        transform: translateY(-155px);
+        transform: translateY(-170px);
 
 
 
@@ -892,7 +928,7 @@ footer p {
         font-size: 16px;
     }
 
-    #scroll{
+    #scroll {
         display: block;
     }
 }
