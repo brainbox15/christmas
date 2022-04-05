@@ -926,6 +926,7 @@ footer p {
     footer p {
         text-align: center;
         font-size: 16px;
+        padding: 0 1em;
     }
 
     #scroll {
